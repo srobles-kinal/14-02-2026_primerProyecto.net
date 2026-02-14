@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkerOrderManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21107f8036bec977fcf70db8bf117eb1e829b6f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+728cbcb4d0151ed2c1dfaf47dcf59c7e4026e98d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkerOrderManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkerOrderManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
