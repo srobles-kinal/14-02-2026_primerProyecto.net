@@ -25,20 +25,19 @@ public class Worker : BackgroundService
                 orderProcesses.Status = OrderStatus.PENDING;
 
                 orderProcesses.Aspirante = new Aspirante();
-                orderProcesses.Aspirante._Apellido = "Robles";
+                orderProcesses.Aspirante.Apellido = "Robles";
+                orderProcesses.Aspirante.Nombres = "Sergio Alexander";
+                orderProcesses.Aspirante.Direccion= "Ciudad";
+                orderProcesses.Aspirante.Telefono = "12345678";
 
-                 Order orderProcessesTwo = new Order();
-
-                orderProcessesTwo.EntityType = EntityType.CANDIDATE;
-                orderProcessesTwo.OperationType = OperationType.CREATE;
-                orderProcessesTwo.Status = OrderStatus.PENDING;
-                orderProcessesTwo.Aspirante = new Aspirante();
-                orderProcessesTwo.Aspirante._Apellido = "García";
-
+                
+                //Se necesita realizar un logger para cada instancia que se realice.
 
                 _logger.LogInformation("Worker running object one: {0}", JsonSerializer.Serialize(orderProcesses));
+                
+            }
             }
             await Task.Delay(1000, stoppingToken);
         }
     }
-}
+
